@@ -24,11 +24,11 @@
 						"direction" : "SYNC"
 					},
 				"children" : [{
-						"nodeName" : "NODE NAME 3.1",
-						"name" : "NODE NAME 3.1",
+						"nodeName" : "Test 11.1",
+						"name" : "Test 11.1",
 						"type" : "type2",
 						"code" : "N3.1",
-						"label" : "Node name 3.1",
+						"label" : "Test 11.1",
 						"version" : "v1.0",
 						"link" : {
 								"name" : "Link node 2.1 to 3.1",
