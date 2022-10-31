@@ -16,17 +16,17 @@ function treeBoxes(urlService, jsonData)
 		purple = '#9467bd';
 
 	var margin = {
-					top : 0,
-					right : 0,
-					bottom : 100,
-					left : 0
+					top : 20,
+					right : 20,
+					bottom : 20,
+					left : 20
 				 },
 		// Height and width are redefined later in function of the size of the tree
 		// (after that the data are loaded)
 		width = 800 - margin.right - margin.left,
-		height = 200 - margin.top - margin.bottom;
+		height = 400 - margin.top - margin.bottom;
 	
-	var rectNode = { width : 120, height : 45, textMargin : 5 },
+	var rectNode = { width : 800, height : 20, textMargin : 5 },
 		tooltip = { width : 150, height : 40, textMargin : 5 };
 	var i = 0,
 		duration = 750,
