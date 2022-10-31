@@ -1,7 +1,7 @@
 {
 	"tree" : {
-		"nodeName" : "NODE NAME 1",
-		"name" : "NODE NAME 1",
+		"nodeName" : "जुड़ावन साव",
+		"name" : "जुड़ावन साव",
 		"type" : "type3",
 		"code" : "N1",
 		"label" : "Node name 1",
@@ -12,8 +12,8 @@
 				"direction" : "ASYN"
 			},
 		"children" : [{
-				"nodeName" : "NODE NAME 2.1",
-				"name" : "NODE NAME 2.1",
+				"nodeName" : "बसावन साव",
+				"name" : "बसावन साव",
 				"type" : "type1",
 				"code" : "N2.1",
 				"label" : "Node name 2.1",
