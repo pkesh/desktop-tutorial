@@ -26,7 +26,7 @@ function treeBoxes(urlService, jsonData)
 		width = 800 - margin.right - margin.left,
 		height = 400 - margin.top - margin.bottom;
 	
-	var rectNode = { width : 800, height : 20, textMargin : 5 },
+	var rectNode = { width : 60, height : 20, textMargin : 5 },
 		tooltip = { width : 150, height : 40, textMargin : 5 };
 	var i = 0,
 		duration = 750,
