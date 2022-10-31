@@ -24,7 +24,7 @@ function treeBoxes(urlService, jsonData)
 		// Height and width are redefined later in function of the size of the tree
 		// (after that the data are loaded)
 		width = 800 - margin.right - margin.left,
-		height = 400 - margin.top - margin.bottom;
+		height = 200 - margin.top - margin.bottom;
 	
 	var rectNode = { width : 120, height : 45, textMargin : 5 },
 		tooltip = { width : 150, height : 40, textMargin : 5 };
@@ -195,9 +195,9 @@ function treeBoxes(urlService, jsonData)
 					return '<div style="width: '
 							+ (rectNode.width - rectNode.textMargin * 2) + 'px; height: '
 							+ (rectNode.height - rectNode.textMargin * 2) + 'px;" class="node-text wordwrap">'
-							+ '<b>' + d.nodeName + '</b><br><br>'
-							+ '<b>Code: </b>' + d.code + '<br>'
-/*							+ '<b>Version: </b>' + d.version + '<br>' */
+							+ '<b>' + d.nodeName + '</b>'
+/*							+ '<b>Code: </b>' + d.code + '<br>'
+							+ '<b>Version: </b>' + d.version + '<br>' */
 							+ '</div>';
 				})
 		.on('mouseover', function(d) {
@@ -241,7 +241,8 @@ function treeBoxes(urlService, jsonData)
 	    .append("tspan")
 	    .attr('x', rectNode.width / 2 + tooltip.textMargin)
 	    .attr('dy', '1.5em')
-	    .text(function(d) {return 'Info: ' + d.label;});
+/*	    .text(function(d) {return 'Info: ' + d.label;})  */
+		;
 
 		// Transition nodes to their new position.
 		var nodeUpdate = node.transition().duration(duration)
